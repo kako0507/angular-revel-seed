@@ -1,0 +1,5 @@
+#GET /@tests-angular                    TestRunnerAngular.Index
+
+GET /@tests-angular/angular-seed        TestRunnerAngular.AngularSeed
+
+GET /@tests-angular/public/*filepath    Static.ServeModule(testrunner-angular,public)
